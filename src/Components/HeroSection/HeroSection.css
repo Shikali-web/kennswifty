@@ -1,0 +1,30 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('../../assets/comp\ clinic.PNG') center/cover no-repeat;
+   
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: royalblue;
+    
+  }
+  
+  .hero-headline {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-slogan {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  

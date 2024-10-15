@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 10px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  background-color: none;
+
+}
+
+.menu-container .ant-menu {
+  margin-right: 10px; /* Adjust as needed */
+}
+.menu{
+color: blueviolet;
+display:inline-block;
+}
+.logo {
   color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.hero-left{
+  background: royalblue;
+  align-items: center;
+}
+.services-section {
+  text-align: center; /* Center the title and cards */
+  padding: 20px; /* Add some padding */
 }
 
-.App-link {
-  color: #61dafb;
-}
+.cards-container {
+  display: flex;
+  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  gap: 20px; /* Add space between cards */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.hero-section{
+ 
+  margin-top: 20px; 
+  border: 10px;
 }
